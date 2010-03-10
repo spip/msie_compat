@@ -1,0 +1,43 @@
+<plugin>
+	<nom> <!-- Nom du plugin -->
+	Compatibilité MSIE 6
+	</nom>
+	<auteur>	<!-- Auteur du plugin -->
+	[ARNO*->arno@rezo.net]
+	</auteur>
+	<version>
+	1.0
+	</version>
+	<etat>
+	stable
+	</etat>
+	<description>
+
+	</description>
+	<icon>imgs/ie6-logo64.png</icon>
+
+	<prefix> 
+	msie_compat
+	</prefix>
+	<!-- Definitions des fonctions qui s'inserent dans les pipelines -->
+
+	<pipeline>
+		<nom>configurer_liste_metas</nom>
+		<inclure>msie_compat.php</inclure>
+	</pipeline>
+
+	<pipeline>
+		<nom>affiche_milieu</nom>
+		<inclure>msie_compat.php</inclure>
+	</pipeline>
+
+	<pipeline>
+		<nom>insert_head</nom>
+		<action>insert_head</action>
+		<inclure>msie_compat.php</inclure>
+	</pipeline>
+
+	<necessite id="SPIP" version="[2.1.0 dev;)" />
+
+	<!-- Le parametre action est facultatif : en son absence la methode de la classe portant le nom du pipeline est appelee. Le parametre inclure est facultatif.	-->
+</plugin>
