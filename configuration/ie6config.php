@@ -22,20 +22,13 @@ function configuration_ie6config()
 	$iecompat = $GLOBALS['meta']["iecompat"];
 	if (!$iecompat) $iecompat = "non";
 
-	$res = "<p>Cette configuration vous permet d&rsquo;am&eacute;liorer la compatibilit&eacute; du site public avec le navigateur Internet Explorer.</p>
-			<ul>
-			<li><a href='http://jquery.khurshid.com/ifixpng.php'>iFixPng</a> rétablit la semi-transparence les images au format PNG sous MSIE&nbsp;5&nbsp;et&nbsp;6.</li>
-			<li><a href='http://code.google.com/p/ie7-js/'>IE7.js</a> corrige les images PNG et ajoute des comportements de CSS2 pour MSIE&nbsp;5&nbsp;et&nbsp;6.</li>
-			<li>IE8.js complète IE7.js en enrichissant les comportements des CSS de MSIE 5 à&nbsp;7. </li>
-			<li>IE9.js complète les précédents en enrichissant MSIE&nbsp;5 à&nbsp;8.</li>
-			<li>IE7-squish corrige trois bugs de MSIE&nbsp;6 (notamment la double marge des éléments flottants), mais des effets indésirables peuvent apparaître (le webmestre doit vérifier la compatibilité).</li>
-			</ul>";
+	$res = _T("msie_compat:choix_explication");
 	
 	$res .= afficher_choix('iecompat', $iecompat,
-		array('non' => _L('Non: ne rien ajouter &agrave; mes squelettes'),
-			'ifixpng' => _L('iFixPng : activer l’affichage des PNG 24 (<b>recommandé</b>)'),
-			'IE7' => _L("IE7.js : affichages des PNG 24 et quelques comportements de styles"),
-			'IE7squish' => _L("IE7.js + ie7-squish.js : ajoute la correction des doubles marges sur les &eacute;l&eacute;ments flottants"),
+		array('non' => _T("msie_compat:choix_non"),
+			'ifixpng' => _L('iFixPng'),
+			'IE7' => _L("IE7.js"),
+			'IE7squish' => _L("IE7.js + ie7-squish.js"),
 			'IE8' => _L('IE8.js'),
 			'IE8squish' => _L('IE8.js + ie7-squish.js'),
 			'IE9' => _L('IE9.js'),
@@ -44,7 +37,7 @@ function configuration_ie6config()
 		" <br /> ");
 	
 	
-	$res = debut_cadre_trait_couleur(find_in_path("imgs/ie6-logo24.png"), true, "", _L("Compatibilité Microsoft Internet Explorer"))
+	$res = debut_cadre_trait_couleur(find_in_path("imgs/ie6-logo24.png"), true, "", _T("msie_compat:choix_titre"))
 	. ajax_action_post('configurer', 'ie6config', 'configuration','',$res)
 	. fin_cadre_trait_couleur(true);
 

@@ -9,5 +9,6 @@ javascript/IE9.js -text
 javascript/blank.gif -text
 javascript/ie7-squish.js -text
 javascript/jquery.ifixpng.js -text
+lang/msie_compat_fr.php -text
 /msie_compat.php -text
 /plugin.xml -text
