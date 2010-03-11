@@ -1,9 +1,9 @@
 <plugin>
 	<nom> <!-- Nom du plugin -->
-	Compatibilité MSIE 6
+	Compatibilité MSIE
 	</nom>
 	<auteur>	<!-- Auteur du plugin -->
-	[ARNO*->arno@rezo.net]
+	SPIP, Kush M. (jquery.ifixpng.js), Dean Edwards (IE7.js)
 	</auteur>
 	<version>
 	1.0
@@ -12,9 +12,19 @@
 	stable
 	</etat>
 	<description>
+		<multi>
+Permet de s&eacute;lectionner diff&eacute;rentes m&eacute;thodes 
+-* pour assurer l'affichage des fichiers PNG transparents sous MSIE~6 
+-* et/ou activer certains s&eacute;lecteurs CSS dans MSIE~6, 7 et~8.
+[en]
+Offers different javascript methods to add support for:
+-* transparent PNG files to MSIE~6 
+-* and/or various CSS selectors to MSIE~6, 7 and~8.
 
+		</multi>
 	</description>
 	<icon>imgs/ie6-logo64.png</icon>
+	<licence>GPL, MIT</licence>
 
 	<prefix> 
 	msie_compat
