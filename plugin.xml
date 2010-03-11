@@ -15,11 +15,11 @@
 		<multi>
 Permet de s&eacute;lectionner diff&eacute;rentes m&eacute;thodes 
 -* pour assurer l'affichage des fichiers PNG transparents sous MSIE~6 
--* et/ou activer certains s&eacute;lecteurs CSS dans MSIE~6, 7 et~8.
+-* et/ou activer certains s&eacute;lecteurs CSS dans MSIE~6 et~7.
 [en]
 Offers different javascript methods to add support for:
 -* transparent PNG files to MSIE~6 
--* and/or various CSS selectors to MSIE~6, 7 and~8.
+-* and/or various CSS selectors to MSIE~6 and~7.
 
 		</multi>
 	</description>

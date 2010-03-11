@@ -58,7 +58,7 @@ function msie_compat_insert_head($flux) {
 <![endif]-->
 ";
 	
-	}  else if ($iecompat == "IE9") {
+	} /* else if ($iecompat == "IE9") {
 	$flux .= "<!--[if lt IE 9]>
 	<script type='text/javascript'><!-- 
 		var IE7_PNG_SUFFIX = '.png'; 
@@ -77,7 +77,7 @@ function msie_compat_insert_head($flux) {
 <![endif]-->
 ";
 	
-	} 
+	} */
 
 	return $flux;
 }
