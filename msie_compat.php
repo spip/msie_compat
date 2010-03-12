@@ -9,7 +9,8 @@ function msie_compat_insert_head($flux) {
 	if ($iecompat == "ifixpng") {
 	$flux .= "<!--[if lt IE 7]>
 	<script src='".find_in_path('javascript/jquery.ifixpng.js')."'></script>
-	<script type='text/javascript'><!--
+	<script type='text/javascript'>//<![CDATA[
+
 		jQuery.ifixpng('rien.gif');
 		
 		function fixie() {
@@ -17,23 +18,25 @@ function msie_compat_insert_head($flux) {
 		}
 		$(document).ready(function() { fixie(); });
 		onAjaxLoad(fixie);	
-	--></script>
+	//]]></script>
 <![endif]-->
 ";
 	} else if ($iecompat == "IE7") {
 	$flux .= "<!--[if lt IE 7]>
-	<script type='text/javascript'><!-- 
+	<script type='text/javascript'>//<![CDATA[
+
 		var IE7_PNG_SUFFIX = '.png'; 
-	--></script>
+	//]]></script>
 	<script src='".find_in_path('javascript/IE7.js')."'></script>
 <![endif]-->
 ";
 	
 	} else if ($iecompat == "IE7squish") {
 	$flux .= "<!--[if lt IE 7]>
-	<script type='text/javascript'><!-- 
+	<script type='text/javascript'>//<![CDATA[
+
 		var IE7_PNG_SUFFIX = '.png'; 
-	--></script>
+	//]]></script>
 	<script src='".find_in_path('javascript/IE7.js')."'></script>
 	<script src='".find_in_path('javascript/ie7-squish.js')."'></script>
 <![endif]-->
@@ -41,18 +44,20 @@ function msie_compat_insert_head($flux) {
 	
 	}  else if ($iecompat == "IE8") {
 	$flux .= "<!--[if lt IE 8]>
-	<script type='text/javascript'><!-- 
+	<script type='text/javascript'>//<![CDATA[
+
 		var IE7_PNG_SUFFIX = '.png'; 
-	--></script>
+	//]]></script>
 	<script src='".find_in_path('javascript/IE8.js')."'></script>
 <![endif]-->
 ";
 	
 	}  else if ($iecompat == "IE8squish") {
 	$flux .= "<!--[if lt IE 8]>
-	<script type='text/javascript'><!-- 
+	<script type='text/javascript'>//<![CDATA[
+
 		var IE7_PNG_SUFFIX = '.png'; 
-	--></script>
+	//]]></script>
 	<script src='".find_in_path('javascript/IE8.js')."'></script>
 	<script src='".find_in_path('javascript/ie7-squish.js')."'></script>
 <![endif]-->
@@ -62,7 +67,7 @@ function msie_compat_insert_head($flux) {
 	$flux .= "<!--[if lt IE 9]>
 	<script type='text/javascript'><!-- 
 		var IE7_PNG_SUFFIX = '.png'; 
-	--></script>
+	//]]></script>
 	<script src='".find_in_path('javascript/IE9.js')."'></script>
 <![endif]-->
 ";
@@ -71,7 +76,7 @@ function msie_compat_insert_head($flux) {
 	$flux .= "<!--[if lt IE 9]>
 	<script type='text/javascript'><!-- 
 		var IE7_PNG_SUFFIX = '.png'; 
-	--></script>
+	//]]></script>
 	<script src='".find_in_path('javascript/IE9.js')."'></script>
 	<script src='".find_in_path('javascript/ie7-squish.js')."'></script>
 <![endif]-->
