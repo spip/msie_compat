@@ -1,8 +1,7 @@
 * text=auto !eol
 action/configurer_iecompat.php -text
 configuration/ie6config.php -text
-imgs/ie6-logo24.png -text
-imgs/ie6-logo64.png -text
+imgs/browser-32.png -text
 javascript/IE7.js -text
 javascript/IE8.js -text
 javascript/IE9.js -text

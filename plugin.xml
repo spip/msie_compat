@@ -1,16 +1,10 @@
 <plugin>
-	<nom> <!-- Nom du plugin -->
-	Compatibilité MSIE
-	</nom>
-	<auteur>	<!-- Auteur du plugin -->
+	<nom>Suport vieux navigateurs</nom>
+	<auteur>
 	SPIP, Kush M. (jquery.ifixpng.js), Dean Edwards (IE7.js)
 	</auteur>
-	<version>
-	1.0
-	</version>
-	<etat>
-	stable
-	</etat>
+	<version>1.0</version>
+	<etat>stable</etat>
 	<description>
 		<multi>
 Permet de s&eacute;lectionner diff&eacute;rentes m&eacute;thodes 
@@ -23,13 +17,10 @@ Offers different javascript methods to add support for:
 
 		</multi>
 	</description>
-	<icon>imgs/ie6-logo64.png</icon>
+	<icon>imgs/browser-32.png</icon>
 	<licence>GPL, MIT</licence>
 
-	<prefix> 
-	msie_compat
-	</prefix>
-	<!-- Definitions des fonctions qui s'inserent dans les pipelines -->
+	<prefix>msie_compat</prefix>
 
 	<pipeline>
 		<nom>configurer_liste_metas</nom>
@@ -47,7 +38,6 @@ Offers different javascript methods to add support for:
 		<inclure>msie_compat.php</inclure>
 	</pipeline>
 
-	<necessite id="SPIP" version="[2.1.0 dev;)" />
+	<necessite id="SPIP" version="[2.1.0-dev;)" />
 
-	<!-- Le parametre action est facultatif : en son absence la methode de la classe portant le nom du pipeline est appelee. Le parametre inclure est facultatif.	-->
 </plugin>
