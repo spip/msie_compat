@@ -1,5 +1,5 @@
 <plugin>
-	<nom>Support vieux navigateurs</nom>
+	<nom><multi>Support vieux navigateurs[de]Unterst&uuml;tzung &auml;lterer Webbrowser</multi></nom>
 	<auteur>
 	SPIP, Kush M. (jquery.ifixpng.js), Dean Edwards (IE7.js)
 	</auteur>
@@ -14,7 +14,10 @@ Permet de s&eacute;lectionner diff&eacute;rentes m&eacute;thodes
 Offers different javascript methods to add support for:
 -* transparent PNG files to MSIE~6 
 -* and/or various CSS selectors to MSIE~6 and~7.
-
+[de]
+Bietet verschiedene Methoden f&uuml;r:
+-* transparente PNG Dateien unter MSIE~6 
+-* und /oder diverse CSS Selektoren f&uuml;r MSIE~6 und~7.
 		</multi>
 	</description>
 	<icon>imgs/browser-32.png</icon>
