@@ -13,5 +13,6 @@ lang/msiecompat_ca.php -text
 lang/msiecompat_de.php -text
 lang/msiecompat_en.php -text
 lang/msiecompat_fr.php -text
+lang/msiecompat_fr_tu.php -text
 /msie_compat.php -text
 /plugin.xml -text
