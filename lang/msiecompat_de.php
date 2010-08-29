@@ -14,9 +14,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
    <li><a href=\'http://code.google.com/p/ie7-js/\'>IE7.js</a> korrigiert PNG-Dateien und f&uuml;gt CSS2 Selektoren f&uuml;r MSIE&nbsp;5&nbsp;und&nbsp;6 hinzu.(<a href=\'http://ie7-js.googlecode.com/svn/test/index.html\'>Liste der mit IE7.js und IE8.js eingef&uuml;hrten kompatiblen Selektoren</a>).</li>
    <li>IE8.js erg&auml;nzt IE7.js durch Verbesserung der CSS-Verhaltensweisen von MSIE 5 bis&nbsp;7. </li>
    <li>IE7-squish korrigiert drei Fehler des MSIE&nbsp;6 (speziell verdoppelte margins bei float-Elementen), unerw&uuml;nschte Nebeneffekte k&ouml;nnen jedoch nicht vollkommen ausgeschlossen werden (der Websmaster sollte die Kompatibilit&auml;t pr&uuml;fen).</li>
-   </ul>',
-	'choix_non' => 'Nicht aktivieren: Meinen Skeletten wird nichts hinzugef&uuml;gt.',
-	'choix_titre' => 'Kompatibilit&auml;t mit dem Microsoft Internet Explorer'
+   </ul>', # MODIF
+	'choix_non' => 'Nicht aktivieren: Meinen Skeletten wird nichts hinzugef&uuml;gt.', # MODIF
+	'choix_titre' => 'Kompatibilit&auml;t mit dem Microsoft Internet Explorer', # MODI
 );
 
 ?>
