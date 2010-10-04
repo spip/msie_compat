@@ -82,16 +82,10 @@ function msie_compat_insert_head($flux) {
 }
 
 function msie_compat_affiche_milieu ($flux) {
-
-	if ($flux["args"]["exec"] == "config_fonctions") {
-
-		$configurer = charger_fonction('ie6config', 'configuration');
-
-		$flux["data"] .= $configurer();
-	}
+	if ($flux["args"]["exec"] == "configurer_avancees")
+		$flux["data"] .= recuperer_fond('prive/squelettes/inclure/configurer',array('configurer'=>'configurer_vieux_butineurs'));
 
 	return $flux;
-
 }
 
 
