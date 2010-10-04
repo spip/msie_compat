@@ -1,5 +1,4 @@
 * text=auto !eol
-action/configurer_iecompat.php -text
 formulaires/configurer_vieux_butineurs.html -text
 formulaires/configurer_vieux_butineurs.php -text
 imgs/browser-32.png -text
