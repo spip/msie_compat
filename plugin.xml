@@ -42,5 +42,5 @@ Bietet verschiedene Methoden f&uuml;r:
 	</pipeline>
 
 	<necessite id="SPIP" version="[2.1.0-dev;)" />
-
+	<salvatore module="msiecompat" reference="fr" />
 </plugin>
