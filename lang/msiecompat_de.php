@@ -16,7 +16,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
    <li>IE7-squish korrigiert drei Fehler des MSIE&nbsp;6 (speziell verdoppelte margins bei float-Elementen), unerw&uuml;nschte Nebeneffekte k&ouml;nnen jedoch nicht vollkommen ausgeschlossen werden (der Websmaster sollte die Kompatibilit&auml;t pr&uuml;fen).</li>
    </ul>', # MODIF
 	'choix_non' => 'Nicht aktivieren: Meinen Skeletten wird nichts hinzugef&uuml;gt.', # MODIF
-	'choix_titre' => 'Kompatibilit&auml;t mit dem Microsoft Internet Explorer', # MODI
+	'choix_titre' => 'Kompatibilit&auml;t mit dem Microsoft Internet Explorer' # MODIF
 );
 
 ?>

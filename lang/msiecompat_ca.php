@@ -16,7 +16,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
    <li>IE7-squish corregeix tres errors de MSIE&nbsp;6 (sobretot el doble marge dels elements flotants), per&ograve; poden apar&egrave;ixer efectes indesitjables (el webmestre ha de verificar la compatibilitat).</li>
    </ul>', # MODIF
 	'choix_non' => 'No activar-ho: no afegir res a les meves plantilles', # MODIF
-	'choix_titre' => 'Compatibilitat Microsoft Internet Explorer', # MODI
+	'choix_titre' => 'Compatibilitat Microsoft Internet Explorer' # MODIF
 );
 
 ?>

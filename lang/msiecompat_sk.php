@@ -16,7 +16,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 <li>IE7-squish opravil tri chyby v MSIE 6 (vr&aacute;tane dvojit&eacute;ho okraja pl&aacute;vaj&uacute;cich prvkoch), ale m&ocirc;&#382;u sa objavi&#357; in&eacute; probl&eacute;my. </li>
 </ul>', # MODIF
 	'choix_non' => '<NEW>Neaktivova&#357;: ni&#269; neprid&aacute;va&#357; na moje str&aacute;nky', # MODIF
-	'choix_titre' => '<NEW>Kompatibilita s Microsoft Internet Explorerom ', # MODI
+	'choix_titre' => '<NEW>Kompatibilita s Microsoft Internet Explorerom ' # MODIF
 );
 
 ?>
