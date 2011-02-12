@@ -10,6 +10,7 @@ javascript/ie7-recalc.js -text
 javascript/ie7-squish.js -text
 javascript/jquery.ifixpng.js -text
 lang/msiecompat_ar.php -text
+lang/msiecompat_ast.php -text
 lang/msiecompat_ca.php -text
 lang/msiecompat_de.php -text
 lang/msiecompat_en.php -text
