@@ -15,8 +15,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
    <li>IE8.js compl&egrave;te IE7.js en enrichissant les comportements des CSS de MSIE 5 &agrave;&nbsp;7. </li>
    <li>IE7-squish corrige trois bugs de MSIE&nbsp;6 (notamment la double marge des &eacute;l&eacute;ments flottants), mais des effets ind&eacute;sirables peuvent appara&icirc;tre (le webmestre doit v&eacute;rifier la compatibilit&eacute;).</li>
    </ul>', # MODIF
-	'choix_non' => 'Ne pas activer&nbsp;: ne rien ajouter &agrave; mes squelettes', # MODIF
-	'choix_titre' => 'Compatibilit&eacute; Microsoft Internet Explorer' # MODIF
+	'choix_non' => 'Ne pas activer : ne rien ajouter à mes squelettes', # MODIF
+	'choix_titre' => 'Compatibilité Microsoft Internet Explorer' # MODIF
 );
 
 ?>
