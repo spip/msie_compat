@@ -13,6 +13,9 @@
 	<langue code="fa" />
 	<langue code="fr_tu" />
 	<langue code="it" />
+	<langue code="pt_br">
+		<traducteur nom="rporto" />
+	</langue>
 	<langue code="ru" />
 	<langue code="sk" />
 </traduction>
