@@ -5,10 +5,12 @@
 	</auteur>
 	<version>1.1.0</version>
 	<etat>stable</etat>
+	<slogan><multi>
+[fr] PNG et s&eacute;lecteurs CSS pour les vieux navigateurs
+[en] PNG files and various CSS selectors for old browsers
+	</multi></slogan>
 	<description>
 		<multi>
-PNG transparents et autres s&eacute;lecteurs CSS pour les vieux navigateurs.
-		
 Permet de s&eacute;lectionner diff&eacute;rentes m&eacute;thodes 
 -* pour assurer l'affichage des fichiers PNG transparents sous MSIE~6 
 -* et/ou activer certains s&eacute;lecteurs CSS dans MSIE~6 et~7.
