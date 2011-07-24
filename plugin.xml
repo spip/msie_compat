@@ -24,7 +24,7 @@ Bietet verschiedene Methoden f&uuml;r:
 -* und /oder diverse CSS Selektoren f&uuml;r MSIE~6 und~7.
 		</multi>
 	</description>
-	<icon>images/browser-32.png</icon>
+	<icon>images/msiecompat-32.png</icon>
 	<licence>GPL, MIT</licence>
 
 	<prefix>msie_compat</prefix>

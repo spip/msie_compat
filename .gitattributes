@@ -1,7 +1,9 @@
 * text=auto !eol
 formulaires/configurer_vieux_butineurs.html -text
 formulaires/configurer_vieux_butineurs.php -text
-images/browser-32.png -text
+images/msiecompat-16.png -text
+images/msiecompat-24.png -text
+images/msiecompat-32.png -text
 javascript/IE7.js -text
 javascript/IE8.js -text
 javascript/IE9.js -text
