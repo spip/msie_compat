@@ -24,5 +24,8 @@ lang/msiecompat_it.php -text
 lang/msiecompat_pt_br.php -text
 lang/msiecompat_ru.php -text
 lang/msiecompat_sk.php -text
+lang/paquet-msie_compat_de.php -text
+lang/paquet-msie_compat_en.php -text
+lang/paquet-msie_compat_fr.php -text
 /msie_compat.php -text
 /plugin.xml -text
