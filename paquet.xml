@@ -1,9 +1,9 @@
 <paquet
 	prefix="msie_compat"
 	categorie="outil"
-	version="1.1.0"
+	version="1.2.0"
 	etat="stable"
-	compatibilite="[2.1.0-dev;["
+	compatibilite="[3.0.0-alpha2;["
 	logo="images/msiecompat-32.png"
 >	
 
@@ -11,8 +11,8 @@
 	<!-- PNG et sélecteurs CSS pour les vieux navigateurs -->
 
 	<auteur>Collectif SPIP</auteur>
-	<credit>Kush M. (jquery.ifixpng.js)</credit>
-	<credit>Dean Edwards (IE7.js)</credit>
+	<credit lien="http://jquery.khurshid.com">Kush M. (jquery.ifixpng.js)</credit>
+	<credit lien="http://code.google.com/p/ie7-js/">Dean Edwards et al (IE7.js)</credit>
 
 	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL</licence>
 	<licence lien="http://opensource.org/licenses/mit-license.php">MIT</licence>
