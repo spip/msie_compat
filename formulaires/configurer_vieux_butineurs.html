@@ -3,7 +3,7 @@
 	[<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok})</p>]
 	[<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
 	[(#ENV{editable})
-	<:msiecompat:choix_explication:>
+	<p><:msiecompat:choix_explication:></p>
 	<form method='post' action='#ENV{action}'><div>
 		[(#REM) declarer les hidden qui declencheront le service du formulaire
 		parametre : url d'action ]
@@ -20,18 +20,24 @@
 				<div class="choix">
 					<input type="radio" name="#GET{name}" id="#GET{name}_ifixpng" value="ifixpng"
 					[(#ENV{#GET{name}}|=={ifixpng}|oui)checked="checked"] /><label for="#GET{name}_ifixpng">iFixPng</label>
+					<span class='explication'><:msiecompat:choix_ifixpng:></span>
+
 				</div>
 				<div class="choix">
 					<input type="radio" name="#GET{name}" id="#GET{name}_IE7" value="IE7"
-					[(#ENV{#GET{name}}|=={IE7}|oui)checked="checked"] /><label for="#GET{name}_IE7">IE7.js</label>
+					[(#ENV{#GET{name}}|=={IE7}|oui)checked="checked"] /><label for="#GET{name}_IE7">IE7.js 
+						<span class='explication'><:msiecompat:choix_ie7:></span></label>
+					
 				</div>
-				<div class="choix">
+				<div class="choix">					
 					<input type="radio" name="#GET{name}" id="#GET{name}_IE7squish" value="IE7squish"
 					[(#ENV{#GET{name}}|=={IE7squish}|oui)checked="checked"] /><label for="#GET{name}_IE7squish">IE7.js + ie7-squish.js</label>
+					<p class='explication'><:msiecompat:choix_ie7squish:></p>
 				</div>
 				<div class="choix">
 					<input type="radio" name="#GET{name}" id="#GET{name}_IE8" value="IE8"
 					[(#ENV{#GET{name}}|=={IE8}|oui)checked="checked"] /><label for="#GET{name}_IE8">IE8.js</label>
+					<p class='explication'><:msiecompat:choix_ie8:></p>
 				</div>
 				<div class="choix">
 					<input type="radio" name="#GET{name}" id="#GET{name}_IE8squish" value="IE8squish"
