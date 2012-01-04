@@ -1,10 +1,7 @@
 <traduction module="paquet-msie_compat" gestionnaire="salvatore" url="http://trad.spip.org" source="svn://zone.spip.org/spip-zone/_core_/plugins/msie_compat/lang/" reference="fr">
 	<langue code="de" />
 	<langue code="en">
-		<traducteur nom="kent1" />
+		<traducteur nom="kent1" lien="http://trad.spip.org/auteur/kent1" />
 	</langue>
 	<langue code="fr" />
-	<langue code="sk">
-		<traducteur nom="jaro" />
-	</langue>
 </traduction>
