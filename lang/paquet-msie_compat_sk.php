@@ -12,9 +12,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 -* na zabezpečenie zobrazenia priehľadných súborov PNG na MSIE~6,
 
--* a/lebo aktivovať určité voliče CSS v~MSIE~6 a~7.', # NEW
+-* a/lebo aktivovať určité voliče CSS v~MSIE~6 a~7.',
 	'msie_compat_nom' => 'Podpora starších prehliadačov',
-	'msie_compat_slogan' => 'PNG a voliče CSS pre staršie prehliadače' # NEW
+	'msie_compat_slogan' => 'PNG a voliče CSS pre staršie prehliadače'
 );
 
 ?>
