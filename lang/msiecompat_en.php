@@ -1,6 +1,6 @@
 <?php
 // This is a SPIP language file  --  Ceci est un fichier langue de SPIP
-// extrait automatiquement de http://www.spip.net/trad-lang/
+// extrait automatiquement de http://trad.spip.org
 // ** ne pas modifier le fichier **
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
@@ -8,17 +8,11 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// C
-	'choix_explication' => '<p>This configuration improves the public site\'s compatibility with Internet Explorer. </p>
-<ul>
-<li><a href=\'http://jquery.khurshid.com/ifixpng.php\'>iFixPng</a> (<b>default setting</b>) restores semi-transparency of PNG images on MSIE 5 and 6. </li>
-<li><a href=\'http://code.google.com/p/ie7-js/\'>IE7.js</a> corrects PNG transparency and adds CSS2 selectors for MSIE 5 and 6 (<a href=\'http://ie7-js.googlecode.com/svn/test/index.html\'>here is a list of compatible selectors introduced by IE7.js and IE8.js</a>).</li>
-<li>IE8.js enhances IE7.js with CSS selectors for MSIE 5 to 7.</li>
-<li>IE7-squish fixes three bugs in MSIE 6 (including the double margin on floating elements), but side effects may appear (webmasters should make manual checks for compatibility). </li>
-</ul>', # MODIF
-	'choix_ie7' => '<a href=\'http://code.google.com/p/ie7-js/\'>IE7.js</a> corrige les images PNG et ajoute des sélecteurs CSS2 pour MSIE 5 et 6 (<a href=\'http://ie7-js.googlecode.com/svn/test/index.html\'>vous pouvez consulter la liste des sélecteurs compatibles introduits par IE7.js et IE8.js</a>).', # NEW
-	'choix_ie7squish' => 'IE7-squish corrige trois bugs de MSIE 6 (notamment la double marge des éléments flottants), mais des effets indésirables peuvent apparaître (le webmestre doit vérifier la compatibilité).', # NEW
-	'choix_ie8' => 'IE8.js complète IE7.js en enrichissant les comportements des CSS de MSIE 5 à 7.', # NEW
-	'choix_ifixpng' => 'Choix par défaut, <a href=\'http://jquery.khurshid.com/ifixpng.php\'>iFixPng</a> rétablit la semi-transparence les images au format PNG sous MSIE 5 et 6.', # NEW
+	'choix_explication' => 'This configuration allows you to improve the compatibility of the public site with Internet Explorer.',
+	'choix_ie7' => '<a href=\'http://code.google.com/p/ie7-js/\'>IE7.js</a> fixes PNG images and adds CSS2 selectors for MSIE 5 and 6 (<a href=\'http://ie7-js.googlecode.com/svn/test/index.html\'>You can consult the list of compatible selectors introduced by IE7.js et IE8.js</a>).',
+	'choix_ie7squish' => 'IE7-squish fixes three MSIE 6 bugs (including the double margin of floating elements), but side effects may occur (the webmaster should check compatibility).',
+	'choix_ie8' => 'IE8.js complete IE7.js by expanding the CSS behaviors of MSIE 5 to 7.',
+	'choix_ifixpng' => 'Default choice, <a href=\'http://jquery.khurshid.com/ifixpng.php\'>iFixPng</a> restores the semi-transparency on PNG images under MSIE 5 and 6.',
 	'choix_non' => 'Disable: do not add anything to my pages',
 	'choix_titre' => 'Microsoft Internet Explorer Compatibility'
 );
