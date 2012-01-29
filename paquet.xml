@@ -22,4 +22,5 @@
 	<pipeline nom="configurer_liste_metas" inclure="msie_compat.php" />
 	<pipeline nom="affiche_milieu" inclure="msie_compat.php" />
 	<pipeline nom="insert_head" action="insert_head" inclure="msie_compat.php" />
+	<pipeline nom="ieconfig_metas" inclure="msie_compat_ieconfig.php" />
 </paquet>

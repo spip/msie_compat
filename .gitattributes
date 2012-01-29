@@ -32,3 +32,4 @@ lang/paquet-msie_compat_fr.php -text
 lang/paquet-msie_compat_sk.php -text
 lang/paquet-msiecompat.xml -text
 /msie_compat.php -text
+/msie_compat_ieconfig.php -text
