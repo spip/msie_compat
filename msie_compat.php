@@ -90,7 +90,7 @@ function msie_compat_affiche_milieu ($flux) {
 
 
 function msie_compat_configurer_liste_metas ($metas) {
-	$metas['iecompat']='ifixpng';
+	$metas['iecompat']='non';
 	
 	return ($metas);
 }
