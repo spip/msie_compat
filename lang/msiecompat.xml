@@ -2,6 +2,11 @@
 	<langue code="ar" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=ar" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="George" lien="http://trad.spip.net/auteur/جورج-قندلفت" />
 	</langue>
+	<langue code="ast" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=ast" total="7" traduits="2" relire="0" modifs="1" nouveaux="4" pourcent="28.57">
+		<traducteur nom="Xuacu" lien="http://trad.spip.net/auteur/xuacu" />
+	</langue>
+	<langue code="ca" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=ca" total="7" traduits="0" relire="0" modifs="3" nouveaux="4" pourcent="0.00">
+	</langue>
 	<langue code="de" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=de" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="klaus++" lien="http://trad.spip.net/auteur/klaus" />
 	</langue>
@@ -11,6 +16,9 @@
 	</langue>
 	<langue code="es" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=es" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jotacese" lien="http://trad.spip.net/auteur/jotacese" />
+	</langue>
+	<langue code="eu" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=eu" total="7" traduits="2" relire="0" modifs="1" nouveaux="4" pourcent="28.57">
+		<traducteur nom="otalazt" lien="http://trad.spip.net/auteur/otalazt" />
 	</langue>
 	<langue code="fa" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=fa" total="7" traduits="4" relire="0" modifs="0" nouveaux="3" pourcent="57.14">
 		<traducteur nom="Davood Hossein" lien="http://trad.spip.net/auteur/davood-hossein" />
@@ -33,6 +41,9 @@
 	</langue>
 	<langue code="pt" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=pt" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Cláudia Anjos Lopes" lien="http://trad.spip.net/auteur/claudia_a_lopes" />
+	</langue>
+	<langue code="pt_br" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=pt_br" total="7" traduits="2" relire="0" modifs="1" nouveaux="4" pourcent="28.57">
+		<traducteur nom="Ricardo Porto" lien="http://trad.spip.net/auteur/ricardo-porto" />
 	</langue>
 	<langue code="ru" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=ru" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Serge Markitanenko" lien="http://trad.spip.net/auteur/serge-markitanenko" />
