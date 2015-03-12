@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// C
-	'choix_explication' => 'Aquela counfiguracioun vous permete de miliourà la coumpatibilità dóu sit public embé lou navigatour Internet Explorer.',
+	'choix_explication' => 'Aquela counfiguracioun vi permete da miliourà la coumpatibilità dóu sit pùblicou embé lou navigatour Internet Explorer.',
 	'choix_ie7' => '<a href=\'http://code.google.com/p/ie7-js/\'>IE7.js</a> courriege li image PNG e ajusta dei seletour CSS2 per MSIE 5 e 6 (<a href=\'http://ie7-js.googlecode.com/svn/test/index.html\'>poudès counsultà la lista dei seletour coumpatible introuduch da IE7.js e IE8.js</a>).',
 	'choix_ie7squish' => 'IE7-squish courriege tré bug de MSIE 6 (en particulié la doubla marge dei elemen floutant), mà dei efet noun desiderable si pouòdon parèisse (lou webmestre déu verificà la coumpatibilità).',
 	'choix_ie8' => 'IE8.js coumpleta IE7.js en enriquissent lu coumpourtamen dei CSS de MSIE 5 a 7.',
