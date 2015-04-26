@@ -26,7 +26,6 @@ lang/msiecompat_fr_tu.php -text
 lang/msiecompat_it.php -text
 lang/msiecompat_lb.php -text
 lang/msiecompat_nl.php -text
-lang/msiecompat_oc_ni_mis.php -text
 lang/msiecompat_pt.php -text
 lang/msiecompat_pt_br.php -text
 lang/msiecompat_ru.php -text
@@ -39,11 +38,9 @@ lang/paquet-msie_compat_es.php -text
 lang/paquet-msie_compat_fa.php -text
 lang/paquet-msie_compat_fr.php -text
 lang/paquet-msie_compat_fr_fem.php -text
-lang/paquet-msie_compat_fr_tu.php -text
 lang/paquet-msie_compat_it.php -text
 lang/paquet-msie_compat_lb.php -text
 lang/paquet-msie_compat_nl.php -text
-lang/paquet-msie_compat_oc_ni_mis.php -text
 lang/paquet-msie_compat_pt.php -text
 lang/paquet-msie_compat_pt_br.php -text
 lang/paquet-msie_compat_ru.php -text
