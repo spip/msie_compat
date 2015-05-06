@@ -55,4 +55,7 @@
 	<langue code="sk" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=sk" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="jaro" lien="http://trad.spip.net/auteur/jaro" />
 	</langue>
+	<langue code="uk" url="http://trad.spip.net/tradlang_module/msiecompat?lang_cible=uk" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="olly" lien="http://trad.spip.net/auteur/olly" />
+	</langue>
 </traduction>
