@@ -13,7 +13,7 @@
 if (!defined("_ECRIRE_INC_VERSION")) return;
 include_spip('inc/presentation');
 
-function formulaires_configurer_vieux_butineurs_charger_dist(){
+function formulaires_configurer_vieux_butineurs_charger_dist() {
 	$valeurs = array(
 		'iecompat' => $GLOBALS['meta']['iecompat']?$GLOBALS['meta']['iecompat']:'non',
 		);
@@ -21,15 +21,14 @@ function formulaires_configurer_vieux_butineurs_charger_dist(){
 }
 
 
-function formulaires_configurer_vieux_butineurs_traiter_dist(){
-	$res = array('editable'=>true);
+function formulaires_configurer_vieux_butineurs_traiter_dist() {
+	$res = array('editable' => true);
 	foreach(array(
 		"iecompat",
 		) as $m)
-		if (!is_null($v=_request($m)))
+		if (!is_null($v = _request($m)))
 			ecrire_meta($m, $v);
 
 	$res['message_ok'] = _T('config_info_enregistree');
 	return $res;
 }
-

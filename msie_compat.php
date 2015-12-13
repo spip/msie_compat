@@ -19,7 +19,7 @@ function msie_compat_insert_head($flux) {
 	//]]></script>
 <![endif]-->
 ";
-	} else if ($iecompat == "IE7") {
+	} elseif ($iecompat == "IE7") {
 	$flux .= "<!--[if lt IE 7]>
 	<script type='text/javascript'>//<![CDATA[
 		var IE7_PNG_SUFFIX = '.png'; 
@@ -28,7 +28,7 @@ function msie_compat_insert_head($flux) {
 <![endif]-->
 ";
 	
-	} else if ($iecompat == "IE7squish") {
+	} elseif ($iecompat == "IE7squish") {
 	$flux .= "<!--[if lt IE 7]>
 	<script type='text/javascript'>//<![CDATA[
 		var IE7_PNG_SUFFIX = '.png'; 
@@ -38,7 +38,7 @@ function msie_compat_insert_head($flux) {
 <![endif]-->
 ";
 	
-	}  else if ($iecompat == "IE8") {
+	}  elseif ($iecompat == "IE8") {
 	$flux .= "<!--[if lt IE 8]>
 	<script type='text/javascript'>//<![CDATA[
 		var IE7_PNG_SUFFIX = '.png'; 
@@ -47,7 +47,7 @@ function msie_compat_insert_head($flux) {
 <![endif]-->
 ";
 	
-	}  else if ($iecompat == "IE8squish") {
+	}  elseif ($iecompat == "IE8squish") {
 	$flux .= "<!--[if lt IE 8]>
 	<script type='text/javascript'>//<![CDATA[
 		var IE7_PNG_SUFFIX = '.png'; 
@@ -81,18 +81,16 @@ function msie_compat_insert_head($flux) {
 	return $flux;
 }
 
-function msie_compat_affiche_milieu ($flux) {
+function msie_compat_affiche_milieu($flux) {
 	if ($flux["args"]["exec"] == "configurer_avancees")
-		$flux["data"] .= recuperer_fond('prive/squelettes/inclure/configurer',array('configurer'=>'configurer_vieux_butineurs'));
+		$flux["data"] .= recuperer_fond('prive/squelettes/inclure/configurer', array('configurer' => 'configurer_vieux_butineurs'));
 
 	return $flux;
 }
 
 
-function msie_compat_configurer_liste_metas ($metas) {
-	$metas['iecompat']='non';
+function msie_compat_configurer_liste_metas($metas) {
+	$metas['iecompat'] = 'non';
 	
 	return ($metas);
 }
-
-?>
