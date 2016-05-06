@@ -19,4 +19,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'msie_compat_slogan' => 'Ficheiros PNG e selectores CSS para os navegadores antigos'
 );
 
-?>

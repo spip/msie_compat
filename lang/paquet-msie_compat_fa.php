@@ -19,4 +19,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'msie_compat_slogan' => 'پي.ان.جي و گزينشگر‌هاي سي.اس.اس براي مرورگرهاي قديمي'
 );
 
-?>

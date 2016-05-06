@@ -19,4 +19,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'msie_compat_slogan' => 'Поддержка прозрачности PNG и расширенная поддержка селекторов CSS для старых браузеров'
 );
 
-?>

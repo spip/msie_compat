@@ -19,4 +19,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'msie_compat_slogan' => 'ملفات PNG وعلامات أوراق الأنماط في برامج التصفح القديمة'
 );
 
-?>
