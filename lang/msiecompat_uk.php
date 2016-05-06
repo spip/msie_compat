@@ -25,4 +25,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_titre' => 'Сумісність з Internet Explorer (iepngfix)'
 );
 
-?>

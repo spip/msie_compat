@@ -19,4 +19,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_titre' => 'التوافق مع مايكروسوفت انترنت اكسبلورر'
 );
 
-?>

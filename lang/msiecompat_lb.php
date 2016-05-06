@@ -19,4 +19,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_titre' => 'Kompatibilitéit mam Microsoft Internet Explorer'
 );
 
-?>
