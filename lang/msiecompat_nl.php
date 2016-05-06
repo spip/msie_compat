@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Niets activeren: niets bij mijn skeletten voegen',
 	'choix_titre' => 'Compatibiliteit Microsoft Internet Explorer'
 );
-

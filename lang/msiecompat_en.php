@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Disable: do not add anything to my pages',
 	'choix_titre' => 'Microsoft Internet Explorer Compatibility'
 );
-

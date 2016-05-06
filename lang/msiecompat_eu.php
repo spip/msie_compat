@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Ez aktibatu : ezer ez eskeletoetan gehitu',
 	'choix_titre' => 'Microsoft Internet Explorer-ekin bateragarritasuna'
 );
-

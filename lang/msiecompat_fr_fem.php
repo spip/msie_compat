@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Ne pas activer : ne rien ajouter à mes squelettes',
 	'choix_titre' => 'Compatibilité Microsoft Internet Explorer'
 );
-

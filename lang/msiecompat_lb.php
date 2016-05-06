@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Net aschalten: Näischt bei meng Skeletter bäiflécken',
 	'choix_titre' => 'Kompatibilitéit mam Microsoft Internet Explorer'
 );
-

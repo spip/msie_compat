@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Neaktivovať: nepridávať nič do mojich šablón',
 	'choix_titre' => 'Kompatibilita s prehliadačom Microsoft Internet Explorer'
 );
-

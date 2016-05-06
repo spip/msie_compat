@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Noun ativà : ren ajustà ai mieu esqueletrou',
 	'choix_titre' => 'Compatibilità Microsoft Internet Explorer'
 );
-

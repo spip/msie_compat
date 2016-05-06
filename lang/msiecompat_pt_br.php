@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Não ativar: não incluir nada nos meus templates',
 	'choix_titre' => 'Compatibilidade com Microsoft Internet Explorer'
 );
-

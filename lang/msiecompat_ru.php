@@ -24,4 +24,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Отключить: не добавлять iepngfix на сайт',
 	'choix_titre' => 'Совместимость с Internet Explorer (iepngfix)'
 );
-

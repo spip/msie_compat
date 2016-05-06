@@ -21,4 +21,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Non attivare: non aggiungere niente ai miei modelli',
 	'choix_titre' => 'Compatibilità Microsoft Internet Explorer'
 );
-

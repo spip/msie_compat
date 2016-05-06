@@ -20,4 +20,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'No activar-ho: no afegir res a les meves plantilles', # MODIF
 	'choix_titre' => 'Compatibilitat Microsoft Internet Explorer' # MODIF
 );
-

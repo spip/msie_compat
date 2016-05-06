@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'choix_non' => 'Nicht aktivieren: Meinen Skeletten wird nichts hinzugefügt.',
 	'choix_titre' => 'Kompatibilität mit dem Microsoft Internet Explorer'
 );
-
