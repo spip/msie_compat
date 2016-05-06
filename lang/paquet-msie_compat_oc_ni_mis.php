@@ -18,4 +18,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'msie_compat_nom' => 'Suport ai vièi navigatour',
 	'msie_compat_slogan' => 'PNG e seletour CSS dai vièi navigatour'
 );
-
