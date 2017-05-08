@@ -19,7 +19,7 @@ if (!defined("_ECRIRE_INC_VERSION")) return;
 
 include_spip('inc/config');
 
-// http://code.spip.net/@action_configurer_dist
+// https://code.spip.net/@action_configurer_dist
 function exec_configurer_iecompat() {
 	
 	$securiser_action = charger_fonction('securiser_action', 'inc');
