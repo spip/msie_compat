@@ -1,12 +1,17 @@
-<traduction module="msiecompat" gestionnaire="salvatore" url="https://trad.spip.net" source="svn://zone.spip.org/spip-zone/_core_/plugins/msie_compat/lang/" reference="fr">
+<traduction
+	module="msiecompat"
+	id="msiecompat--msie_compat-e9102"
+	gestionnaire="salvatore"
+	url="https://trad.spip.net"
+	source="svn://zone.spip.org/spip-zone/_core_/plugins/msie_compat/lang"
+	reference="fr">
 	<langue code="ar" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=ar" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="George" lien="https://trad.spip.net/auteur/جورج-قندلفت" />
 	</langue>
 	<langue code="ast" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=ast" total="7" traduits="2" relire="0" modifs="1" nouveaux="4" pourcent="28.57">
 		<traducteur nom="Xuacu" lien="https://trad.spip.net/auteur/xuacu" />
 	</langue>
-	<langue code="ca" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=ca" total="7" traduits="0" relire="0" modifs="3" nouveaux="4" pourcent="0.00">
-	</langue>
+	<langue code="ca" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=ca" />
 	<langue code="de" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=de" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="klaus++" lien="https://trad.spip.net/auteur/klaus" />
 	</langue>
@@ -26,13 +31,11 @@
 	<langue code="fa" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=fa" total="7" traduits="4" relire="0" modifs="0" nouveaux="3" pourcent="57.14">
 		<traducteur nom="Davood Hossein" lien="https://trad.spip.net/auteur/davood-hossein" />
 	</langue>
-	<langue code="fr" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=fr" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
-	</langue>
+	<langue code="fr" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=fr" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00" />
 	<langue code="fr_fem" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=fr_fem" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="denisb" lien="https://trad.spip.net/auteur/denisb" />
 	</langue>
-	<langue code="fr_tu" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=fr_tu" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
-	</langue>
+	<langue code="fr_tu" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=fr_tu" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00" />
 	<langue code="it" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=it" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="phante" lien="https://trad.spip.net/auteur/phante" />
 	</langue>
