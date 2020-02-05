@@ -1,9 +1,9 @@
 <traduction
 	module="msiecompat"
-	id="msiecompat--msie_compat-e9102"
+	id="msiecompat--msie_compat-55613"
 	gestionnaire="salvatore"
 	url="https://trad.spip.net"
-	source="svn://zone.spip.org/spip-zone/_core_/plugins/msie_compat/lang"
+	source="https://git.spip.net/spip/msie_compat.git"
 	reference="fr">
 	<langue code="ar" url="https://trad.spip.net/tradlang_module/msiecompat?lang_cible=ar" total="7" traduits="7" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="George" lien="https://trad.spip.net/auteur/جورج-قندلفت" />
